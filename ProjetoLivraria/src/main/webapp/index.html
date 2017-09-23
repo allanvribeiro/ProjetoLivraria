@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Página Web</title>
-	</head>
-	<body>
+<head>
+<meta charset="UTF-8">
+<title>Página Web</title>
+<link href="css/estilo.css" rel="stylesheet" />
+<link href="css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="panel panel-primary">
 		<h1>Página web</h1>
-	</body>
+	</div>
+	<div class="panel">
+		<div class="form-group">
+			<form action="index.jsp" method="post">
+
+				<label for="txtNome">Nome</label> 
+				<input type="text" name="nomeCampo" id="txtNome" />
+				
+				<input type="submit" value="Enviar" />
+			</form>
+		</div>
+	</div>
+</body>
 </html>
